@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="animate__animated">
+
+    <img class="savanne-img" src="/images/savannah-7527458_1280.webp" alt="savanne">
+    <div class="score-container">
+        <p class="scoreInfo"><span id="score">0</span> Points</p>
+        <div class="wrapper">
+
+            <section id="animals">
+                <h3 class="text"> Træk maden hen til dyrene ellers dør de.</h3>
+                <div id="tiger" class="animal animate__animated" data-food="meat"> 🐯</div>
+                <div id="lion" class="animal animate__animated" data-food="meat"> 🦁</div>
+                <div id="monkey" class="animal animate__animated" data-food="fruit"> 🐵</div>
+                <div id="elephant" class="animal animate__animated" data-food="grass" data-food2="fruit"> 🐘
+                </div>
+                <div id="zebra" class="animal animate__animated" data-food="grass" data-food2="fruit"> 🦓</div>
+            </section>
+
+            <section id="foods">
+                <h2>Mad</h2>
+                <div class="foodcontainer">
+                    <article id="f-1" draggable="true" data-food="fruit">
+                        Vindruer 🍇</article>
+                    <article id="f-2" draggable="true" data-food="fruit">
+                        Æbler 🍎</article>
+                    <article id="f-3" draggable="true" data-food="fruit">
+                        Bananer 🍌</article>
+                    <article id="f-4" draggable="true" data-food="grass">
+                        Græs ☘</article>
+                    <article id="f-5" draggable="true" data-food="meat">
+                        Menneske steak 🥩</article>
+                    <article id="f-6" draggable="true" data-food="fruit">
+                        Melon 🍉 </article>
+                    <article id="f-6" draggable="true" data-food="fruit">
+                        Bær 🫐 </article>
+                </div>
+            </section>
+
+
+
+            <a id="linktilvinder" href="vinder.html"></a>
+            <script src="savanne.js"></script>
+        </div>
+    </div>
+</body>
+</html>
